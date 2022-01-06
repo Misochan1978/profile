@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+  }
+
+h1 {
+    font-size: 36px;
+    color: midnightblue;
+}
+h1, h2 {
+    font-family: system-ui;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    background: rgb(79,187,186);
+    background: radial-gradient(circle, rgba(79,187,186,0.2665441176470589) 4%, rgba(163,79,89,0.26094187675070024) 100%, rgba(0,212,255,1) 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: black;
+    line-height: normal;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+  color: burlywood;
+}
+
+
+ div {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(4, 0, 255, 0.1);
+  background-color: darkgray;
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  border: 5xp 5px;
+  }
+
+ .img-circle {
+   border-radius: 50%;
+   box-shadow: 5px 5px 3px black;
+   border: 1px solid lightgrey
+ }
+
+ .list-inline {
+   list-style: none;
+   padding-left: 0px;
+ }
+
+ .list-inline li {
+   display: inline-block;
+   padding: 0px 16px;
+ }
+
+ @media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 65%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 45%;
+  }
+}
